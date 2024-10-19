@@ -1,0 +1,18 @@
+{%  extends "base.html" %}
+
+{% block body %}
+    <div class="container mt-5">
+        <h1 class="text-center">Привет из Django!</h1>
+        <p class="text-center">База данных: {{ db_version }}</p>
+        <div class="text-center">
+            <a href="#" class="btn btn-primary">Нажми меня</a>
+        </div>
+        <div class="card mt-5">
+            <div class="card-body">
+                <h5 class="card-title">Пример карточки</h5>
+                <p class="card-text">Это пример карточки, стилизованной с помощью Bootstrap. Здесь можно добавить любое содержимое.</p>
+                <a href="#" class="btn btn-secondary">Дополнительная информация</a>
+            </div>
+        </div>
+    </div>
+{% endblock body %}
